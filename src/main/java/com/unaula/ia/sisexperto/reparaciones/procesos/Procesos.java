@@ -20,10 +20,10 @@ public class Procesos {
                     "¿El cargador pasa corriente?", "Problemas de carga", JOptionPane.YES_NO_OPTION);
 
             if (JOptionPane.OK_OPTION == confirmado) {
-                JOptionPane.showMessageDialog(null, "Cambiar la bateria", "Problemas de carga", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(null, "Cambiar la bateria", "Carga: Problemas de carga", JOptionPane.INFORMATION_MESSAGE);
 
             } else {
-                JOptionPane.showMessageDialog(null, "Cambiar Puerto de Carga", "Problemas de carga", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(null, "Cambiar Puerto de Carga", "Carga: Problemas de carga", JOptionPane.INFORMATION_MESSAGE);
             }
 
         }
@@ -32,10 +32,10 @@ public class Procesos {
         if (this.elecccion.equals("Problemas de audio")) {
             int confirmado = JOptionPane.showConfirmDialog(
                     null,
-                    "¿No se escucha cuando hablan?", "Problemas de audio", JOptionPane.YES_NO_OPTION);
+                    "¿No se escucha cuando hablan?", "Audio: Problemas de audio", JOptionPane.YES_NO_OPTION);
 
             if (JOptionPane.OK_OPTION == confirmado) {
-                JOptionPane.showMessageDialog(null, "Cambiar Parlante", "Problemas de audio", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(null, "Cambiar Parlante", "Audio: Problemas de audio", JOptionPane.INFORMATION_MESSAGE);
 
             } else {
 
@@ -44,9 +44,9 @@ public class Procesos {
                         "¿No me escuchan cuando hablo?", "Problemas de audio", JOptionPane.YES_NO_OPTION);
 
                 if (JOptionPane.OK_OPTION == confirmado1) {
-                    JOptionPane.showMessageDialog(null, "Cambiar Microfono", "Problemas de audio", JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Cambiar Microfono", "Audio: Problemas de audio", JOptionPane.INFORMATION_MESSAGE);
                 } else {
-                    JOptionPane.showMessageDialog(null, "Revisar conductores de la tarjeta madre", "Problemas de audio", JOptionPane.WARNING_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Revisar conductores de la tarjeta madre", "Audio: Problemas de audio", JOptionPane.WARNING_MESSAGE);
                 }
 
             }
