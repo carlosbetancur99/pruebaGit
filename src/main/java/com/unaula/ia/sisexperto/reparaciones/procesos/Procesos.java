@@ -61,7 +61,7 @@ public class Procesos {
                     "Problemas relacionados con la pantalla", JOptionPane.YES_NO_OPTION);
 
             if (JOptionPane.OK_OPTION == confirmado) {
-                JOptionPane.showMessageDialog(null, "Cambiar Táctil", "Problemas relacionados con la pantalla", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(null, "Cambiar Táctil", "Pantalla: Problemas relacionados con la pantalla", JOptionPane.INFORMATION_MESSAGE);
 
             } else {
 
@@ -71,7 +71,7 @@ public class Procesos {
                         "Problemas relacionados con la pantalla", JOptionPane.YES_NO_OPTION);
 
                 if (JOptionPane.OK_OPTION == confirmado1) {
-                    JOptionPane.showMessageDialog(null, "Cambiar Display", "Problemas relacionados con la pantalla", JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Cambiar Display", "Pantalla: Problemas relacionados con la pantalla", JOptionPane.INFORMATION_MESSAGE);
                 } else {
                     JOptionPane.showMessageDialog(null, "Buscar Rastros de Humedad",
                             "Problemas relacionados con la pantalla", JOptionPane.WARNING_MESSAGE);
